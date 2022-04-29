@@ -54,6 +54,7 @@ unset S
 
 remove_daily_symlinks
 switch_wal
-barman backup all
+barman backup all &
+wait
 remove_sat_symlinks
 switch_wal
